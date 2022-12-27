@@ -1,0 +1,1 @@
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)  if key == "k" then local Item = game:GetObjects("rbxassetid://11934279690")[1] Item.Parent = game.Players.LocalPlayer.Backpack end end)
